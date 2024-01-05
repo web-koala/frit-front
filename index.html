@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting system</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://voting-app-tpnw.onrender.com/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+    
+    <div class="poll-container">
+        <h2>Your favourites</h2>
+        <h3>Total Votes : <span id="totalVotes"></span></h3>
+            <div class="progress-box" id="mayonaise" data-poll -id="1">
+                <p>Mayonaise</p>
+                <div class="progress-bar">
+                    <span data="20%" class="percent-tag"></span>
+                </div>
+            </div>
+            <div class="progress-box" id="ketchup" data-poll -id="2">
+                <p>Ketchup</p>
+                <div class="progress-bar">
+                    <span data="0%" class="percent-tag"></span>
+                </div>
+            </div>
+            <div class="progress-box" id="cocktail" data-poll -id="3">
+                <p>Cocktail</p>
+                <div class="progress-bar">
+                    <span data="0%" class="percent-tag"></span>
+                </div>
+            </div>
+            <div class="progress-box" id="tartare" data-poll -id="4">
+                <p>Tartare</p>
+                <div class="progress-bar">
+                    <span data="0%" class="percent-tag"></span>
+                </div>
+           
+            </div>
+            <div class="progress-box" id="samurai" data-poll -id="5">
+                <p>Samurai</p>
+                <div class="progress-bar">
+                    <span data="0%" class="percent-tag"></span>
+                </div>
+           
+            </div>
+            <div class="progress-box" id="curry" data-poll -id="6">
+                <p>Curry</p>
+                <div class="progress-bar">
+                    <span data="0%" class="percent-tag"></span>
+                </div>
+              
+            </div>
+            
+    </div>
+   
+    <script defer src="./script.js"></script>
+</body>
+
+</html>
